@@ -1,0 +1,56 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/app-employees/node_modules
+/app-employees/.pnp
+/app-employees/.pnp.js
+
+# testing
+/app-employees/coverage
+
+# production
+/app-employees/build
+
+# misc
+/app-employees/.DS_Store
+/app-employees/.env.local
+/app-employees/.env.development.local
+/app-employees/.env.test.local
+/app-employees/.env.production.local
+
+/app-employees/npm-debug.log*
+/app-employees/yarn-debug.log*
+/app-employees/yarn-error.log*
+
+/spring-mvc-with-bootstrap/target/
+/spring-mvc-with-bootstrap/!.mvn/wrapper/maven-wrapper.jar
+/spring-mvc-with-bootstrap/!**/src/main/**/target/
+/spring-mvc-with-bootstrap/!**/src/test/**/target/
+
+### STS ###
+/spring-mvc-with-bootstrap/.apt_generated
+/spring-mvc-with-bootstrap/.classpath
+/spring-mvc-with-bootstrap/.factorypath
+/spring-mvc-with-bootstrap/.project
+/spring-mvc-with-bootstrap/.settings
+/spring-mvc-with-bootstrap/.springBeans
+/spring-mvc-with-bootstrap/.sts4-cache
+
+### IntelliJ IDEA ###
+/spring-mvc-with-bootstrap/.idea
+/spring-mvc-with-bootstrap/*.iws
+/spring-mvc-with-bootstrap/*.iml
+/spring-mvc-with-bootstrap/*.ipr
+
+### NetBeans ###
+/spring-mvc-with-bootstrap/nbproject/private/
+/spring-mvc-with-bootstrap/nbbuild/
+/spring-mvc-with-bootstrap/dist/
+/spring-mvc-with-bootstrap/nbdist/
+/spring-mvc-with-bootstrap/.nb-gradle/
+/spring-mvc-with-bootstrap/build/
+/spring-mvc-with-bootstrap/!**/src/main/**/build/
+/spring-mvc-with-bootstrap/!**/src/test/**/build/
+
+### VS Code ###
+/spring-mvc-with-bootstrap/.vscode/
