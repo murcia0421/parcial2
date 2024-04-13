@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
@@ -31,3 +32,62 @@ build/
 ### VS Code ###
 .vscode/
 /bin/
+=======
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/app-employees/node_modules
+/app-employees/.pnp
+/app-employees/.pnp.js
+
+# testing
+/app-employees/coverage
+
+# production
+/app-employees/build
+
+# misc
+/app-employees/.DS_Store
+/app-employees/.env.local
+/app-employees/.env.development.local
+/app-employees/.env.test.local
+/app-employees/.env.production.local
+
+/app-employees/npm-debug.log*
+/app-employees/yarn-debug.log*
+/app-employees/yarn-error.log*
+
+/spring/target/
+/spring/!.mvn/wrapper/maven-wrapper.jar
+/spring/!**/src/main/**/target/
+/spring/!**/src/test/**/target/
+
+### STS ###
+/spring/.apt_generated
+/spring/.classpath
+/spring/.factorypath
+/spring/.project
+/spring/.settings
+/spring/.springBeans
+/spring/.sts4-cache
+
+### IntelliJ IDEA ###
+/spring/.idea
+/spring/*.iws
+/spring/*.iml
+/spring/*.ipr
+
+### NetBeans ###
+/spring/nbproject/private/
+/spring/nbbuild/
+/spring/dist/
+/spring/nbdist/
+/spring/.nb-gradle/
+/spring/build/
+/spring/!**/src/main/**/build/
+/spring/!**/src/test/**/build/
+
+### VS Code ###
+/spring/.vscode/
+/.metadata/
+>>>>>>> 5e979ffca4b79e62b8e012fb196e5ec162e0483e
